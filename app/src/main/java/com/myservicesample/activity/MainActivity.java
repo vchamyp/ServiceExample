@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                //StartActivity
                 Intent intent = new Intent(MainActivity.this,MyService.class);
                 intent.putExtra("sleeptime",10);
                 startService(intent);
